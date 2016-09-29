@@ -1,0 +1,23 @@
+.accepted {
+  color: green;
+}
+
+.rejected {
+  color: red;
+}
+
+.oddDark {
+  background-color: #c8e8f8;
+}
+
+.evenLight {
+  background-color: #ffffff;
+}
+
+.oddLight {
+  background-color: #f8f8f8;
+}
+
+.evenDark {
+  background-color: #d0f0ff;
+}

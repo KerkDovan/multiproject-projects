@@ -1,0 +1,23 @@
+apple
+apricot
+banana
+cherry
+clementine
+fig
+grape
+guava
+honeydew melon
+kiwi fruit
+lemon
+mango
+melon
+nectarine
+orange
+pear
+pineapple
+plum
+pumpkin
+satsuma
+strawberry
+tomato
+watermelon

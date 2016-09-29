@@ -1,0 +1,624 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"read",
+				"readln"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "a/main.h",
+			"settings":
+			{
+				"buffer_size": 1341,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "epro",
+		"selected_items":
+		[
+			[
+				"epro",
+				"Project: Edit Project"
+			],
+			[
+				"wa",
+				"Word Wrap: Auto"
+			],
+			[
+				"w0",
+				"Word Wrap: 100 characters"
+			],
+			[
+				"wt",
+				"Word Wrap: Toggle"
+			],
+			[
+				"sspy",
+				"Set Syntax: Python"
+			],
+			[
+				"ssset",
+				"Set Syntax: Sublime Settings"
+			],
+			[
+				"ssyaml",
+				"Set Syntax: YAML"
+			],
+			[
+				"trsp",
+				"Trailing Spaces: Delete Trailing Spaces"
+			],
+			[
+				"replyp",
+				"SublimeREPL: Python"
+			],
+			[
+				"replpy",
+				"SublimeREPL: Python"
+			],
+			[
+				"ssahk",
+				"Set Syntax: AutoHotkey"
+			],
+			[
+				"ssmdx",
+				"Set Syntax: Markdown Extended"
+			],
+			[
+				"ssjs",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"ssphp",
+				"Set Syntax: PHP"
+			],
+			[
+				"pcen",
+				"Package Control: Enable Package"
+			],
+			[
+				"pcdis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ssmd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"lorem",
+				"Snippet: Lorem ipsum"
+			],
+			[
+				"rand",
+				"Random:Letters and numbers"
+			],
+			[
+				"randt",
+				"Random:Text"
+			],
+			[
+				"",
+				"Bookmarks: Select Next"
+			],
+			[
+				"random",
+				"Random:Country"
+			],
+			[
+				"sskey",
+				"Set Syntax: Sublime Text Key Map"
+			],
+			[
+				"ssjson",
+				"Set Syntax: JSON"
+			],
+			[
+				"ssnim",
+				"Set Syntax: Nim"
+			],
+			[
+				"+",
+				"Set Syntax: C++"
+			],
+			[
+				"ssmpx",
+				"Set Syntax: MagicRegExp"
+			],
+			[
+				"ssmp",
+				"Set Syntax: MagicPython"
+			],
+			[
+				"format",
+				"Format: Javascript"
+			],
+			[
+				"ssjsc",
+				"Set Syntax: JSON String Content"
+			],
+			[
+				"indsor",
+				"Indent Respectful Sort: Indented by 2 Spaces"
+			],
+			[
+				"ssyam",
+				"Set Syntax: YAML"
+			],
+			[
+				"hexend",
+				"Hex Viewer: Toggle Endianness (Big|Little)"
+			],
+			[
+				"hexv",
+				"Hex Viewer: Set Bytes Per Line"
+			],
+			[
+				"yanch",
+				"Find Yaml Anchor - find YAML anchor by select"
+			],
+			[
+				"brhvis",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"hvi",
+				"Hex Viewer: Generate Hash"
+			],
+			[
+				"brah",
+				"BracketHighlighter: Toggle High Visibility Mode"
+			],
+			[
+				"diff",
+				"FileDiffs: Menu"
+			],
+			[
+				"ctab",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"sscof",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"sssass",
+				"Set Syntax: Sass"
+			],
+			[
+				"ssslim",
+				"Set Syntax: Ruby Slim"
+			],
+			[
+				"ssham",
+				"Set Syntax: Hamlpy"
+			],
+			[
+				"sscma",
+				"Set Syntax: CMakeEditor"
+			],
+			[
+				"asc",
+				"ASCII Decorator: Default Font"
+			],
+			[
+				"mi",
+				"View: Toggle Minimap"
+			],
+			[
+				"WT",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pcrp",
+				"Package Control: Remove Package"
+			],
+			[
+				"sspla",
+				"Set Syntax: Plain Text"
+			],
+			[
+				"wr0",
+				"Word Wrap: 100 characters"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
+			[
+				"pcadv",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"pcar",
+				"Package Control: Add Repository"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day06"
+	],
+	"file_history":
+	[
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day06/d/main.h",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/b/big_output.txt",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/b/random_test_generator.txt",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/f/main.h",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/d/main.h",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/bobr16-07.sublime-project",
+		"/D/st3/Data/Packages/SublimePreferences/Default.sublime-keymap",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/a/gcdx.py",
+		"/D/temp/test.md",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day02/f/main.h",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day02/a/main.h",
+		"/D/st3/Data/Packages/SublimePreferences/PackageSettings/Abacus.sublime-settings",
+		"/D/st3/Data/Packages/Abacus/Abacus.sublime-settings",
+		"/D/st3/Data/Packages/SublimePreferences/README.md",
+		"/D/st3/Data/Packages/Sublime-Preferences/Default.sublime-keymap",
+		"/D/st3/Data/Packages/Default/Default (Windows).sublime-keymap",
+		"/D/st3/Data/Packages/Default/Preferences.sublime-settings",
+		"/D/st3/Data/Packages/User/Package Control.sublime-settings",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/a/main.h",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/Летние сборы Бобры-2016 (09.08.2016 - 18.08.2016).html",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day04/f/main.h",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day06/j/main.h",
+		"/D/temp/test.py",
+		"/D/temp/tep",
+		"/D/st3/Data/Packages/Sublime-Preferences/PackageSettings/sublime-TypeShort.sublime-settings",
+		"/D/st3/Data/Packages/TypeShort/TypeShort.sublime-settings",
+		"/D/st3/Data/Packages/Sublime-Preferences/PackageSettings/TypeShort.sublime-settings",
+		"/D/st3/Data/Packages/SlideNav/Default.sublime-keymap",
+		"/D/temp/[SlideNav] Tutorial.py",
+		"/D/temp/README.md",
+		"/D/st3/Data/Packages/SlideNav/SlideNav.sublime-settings",
+		"/D/My Data/Coding/VS Community/multiproject/Nim.txt",
+		"/D/st3/Data/Packages/User/Markdown Extended.sublime-settings",
+		"/D/st3/Data/Packages/User/Preferences.sublime-settings",
+		"/D/st3/Data/Packages/OmniMarkupPreviewer/OmniMarkupPreviewer.py",
+		"/D/st3/Data/Packages/OmniMarkupPreviewer/OmniMarkupLib/Renderers/libs/pygments/lexer.py",
+		"/D/st3/Data/Packages/OmniMarkupPreviewer/OmniMarkupLib/Renderers/libs/pygments/lexers/c_like.py",
+		"/D/temp/test.js",
+		"/D/st3/Data/Packages/JsFormat/Default (Windows).sublime-keymap",
+		"/D/st3/Data/Packages/JsFormat/JsFormat.sublime-settings",
+		"/D/My Data/Coding/VS Community/multiproject/Debug/controller.exe",
+		"/D/st3/Data/Packages/Sublime-Preferences/PackageSettings/fuzzy_file_nav.sublime-settings",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/a/new_file.txt",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/a/big_output.txt",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/a/checker.h",
+		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/a/output.txt",
+		"/D/dot/Shell-Unix-Generic.sublime-settings",
+		"/D/st3/Data/Packages/DiffView/DiffView.sublime-settings",
+		"/D/st3/Data/Packages/Sublime-Preferences/Preferences.sublime-settings",
+		"/D/st3/Data/Packages/ec/ec.py",
+		"/D/faq/hello.in",
+		"/D/faq/hello.d",
+		"/D/faq/main.d",
+		"/D/st3/Data/Packages/User/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"D:\\st3\\Data\\Packages\\OmniMarkupPreviewer\\"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"only_multiproject",
+			"int",
+			"		\n",
+			"Python",
+			"MyClass",
+			"MY_CLASS",
+			"MyClass",
+			"MY_CLASS",
+			"camelCase",
+			"sync_with_stdio",
+			"ONLINE_JUDGE",
+			"camelCase",
+			"sync_with_stdio",
+			"ONLINE_JUDGE",
+			"//",
+			"define",
+			"s",
+			"scroll_",
+			"\\bcpp\\b",
+			"cpp",
+			"		\"",
+			"right",
+			"[^\\d\\s]",
+			"\\D",
+			"f7",
+			"ctrl\\+shift\\+p",
+			"ctrl",
+			"\"",
+			"ctrl\\+shift\\+p",
+			"ctrl\\+shift",
+			"ctrl\\+",
+			"ctrl"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "a/main.h",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								952,
+								804
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+								},
+								"icon":
+								{
+								},
+								"open":
+								{
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "c++",
+							"buffer_scroll_name": "e2d6a320",
+							"spell_check": false,
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 588.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.commando":
+	{
+		"height": 124.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.hex_viewer_inspector":
+	{
+		"height": 118.0
+	},
+	"pinned_build_system": "",
+	"project": "bobr16-06.sublime.project.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"amh",
+				"a\\main.h"
+			],
+			[
+				"dmh",
+				"d\\main.h"
+			],
+			[
+				"bbo",
+				"b\\big_output.txt"
+			],
+			[
+				"brt",
+				"b\\random_test_generator.txt"
+			],
+			[
+				"fmh",
+				"f\\main.h"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"D:\\My Data\\Coding\\VS Community\\multiproject\\bin\\projects\\olympiads\\bobrovka\\2016\\day07\\bobr16-07.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 380.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

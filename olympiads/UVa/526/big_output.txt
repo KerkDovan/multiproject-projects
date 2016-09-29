@@ -1,0 +1,84 @@
+azaza
+azazaliya
+4
+1 Insert 5,y
+2 Insert 5,i
+3 Insert 5,l
+4 Insert 5,a
+
+azazaa
+azazaaliya
+4
+1 Insert 6,y
+2 Insert 6,i
+3 Insert 6,l
+4 Insert 5,a
+
+azazaa
+azazaliyaa
+4
+1 Insert 5,y
+2 Insert 5,i
+3 Insert 5,l
+4 Insert 5,a
+
+kek
+keklol
+3
+1 Insert 4,l
+2 Insert 4,o
+3 Insert 4,l
+
+keklol
+kek
+3
+1 Delete 6
+2 Delete 5
+3 Delete 4
+
+keklol
+lol
+3
+1 Delete 3
+2 Delete 2
+3 Delete 1
+
+ololo
+ololo
+0
+
+abcac
+bcd
+3
+1 Replace 5,d
+2 Delete 4
+3 Delete 1
+
+aaa
+aabaaaa
+4
+1 Insert 1,a
+2 Insert 1,b
+3 Insert 1,a
+4 Insert 1,a
+
+a
+b
+1
+1 Replace 1,b
+
+aaa
+bbb
+3
+1 Replace 3,b
+2 Replace 2,b
+3 Replace 1,b
+
+kekazaza
+keklalkaazaza
+5
+1 Insert 4,a
+2 Insert 3,l
+3 Insert 3,a
+4 Insert 3,l
+5 Insert 3,k

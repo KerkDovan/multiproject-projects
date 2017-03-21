@@ -15,18 +15,58 @@
 	},
 	"buffers":
 	[
+		{
+			"contents": "Просмотр исходного кода\nЗадача: 5. Autocomplete\nВремя: 18:35:03 2-10-16\nЯзык: C++ (TDM-GCC 5.1.0)\n\n#include <algorithm>//\n#include <cstdio>//\n#include <ctime>//\n#include <iostream>//\n#include <string>//\n#include <tuple>//\n#include <unordered_map>//\n#include <utility>//\n#include <vector>//\n\n#define sqr(x)   ((x) * (x))\n#define eq(x, y) (((x) > (y) ? (x) - (y) : (y) - (x)) <= eps)\n#define sz(x)    int((x).size())\n#define all(x)   (x).begin(), (x).end()\n#define rall(x)  (x).rbegin(), (x).rend()\n#define fst      first\n#define snd      second\n#define mp       make_pair\n#define eb       emplace_back\n#define ef       emplace_front\n#define mt       make_tuple\n#define eps      1e-8\n#define inf      int(1e9)\n#define linf     llong(4e18)\n#define let      const auto\n\n#define TIMESTAMP(msg) debug << \"[\" msg \"] Time = \" << clock() * 1.0 / CLOCKS_PER_SEC << '\\n'\n#define DBG(x) debug << \"[\" #x \"] = \" << x << '\\n'\n#define DOUT(x) debug << x << '\\n'\n#define _ << ' ' <<\n\nusing namespace std;\n\ntypedef unsigned char       uchar;\ntypedef basic_string<uchar> ustring;\ntypedef long long           llong;\ntypedef unsigned long long  ullong;\ntypedef long double         ldouble;\ntypedef vector<int>         vi;\ntypedef vector<vi>          vvi;\ntypedef vector<double>      vd;\ntypedef vector<vd>          vvd;\ntypedef pair<int, int>      pii;\n\nstruct debug_t {\n    template <typename T>\n    debug_t& operator<<(const T& value) {\n#       ifdef LOCAL_DEBUG\n            cout << value << flush;\n#       endif\n        return *this;\n    }\n\n    debug_t& write(const char data[ ], streamsize n) {\n#       ifdef LOCAL_DEBUG\n            cout.write(data, n);\n            cout << flush;\n#       endif\n        return *this;\n    }\n} debug;\n\nchar s[2001];\n\nstruct Node;\n\nNode* createNode();\n\nstruct Node {\n    unordered_map<char, Node*> next;\n    int termCount = 0;\n\n    Node* get(char c) {\n        auto it = next.find(c);\n        return it == next.end() ? nullptr : it->snd;\n    }\n\n    /*\n    Node* add(char c) {\n        auto it = next.lower_bound(c);\n        if (it != next.end() && !next.key_comp()(c, it->fst))\n            return it->snd;\n        auto result = createNode();\n        next.emplace_hint(it, c, result);\n        return result;\n        auto it = next.find(c);\n        if (it != next.end())\n            return it->snd;\n        return addForce(c);\n    }\n    */\n\n    Node* addForce(char c) {\n        auto result = createNode();\n        next.emplace(c, result);\n        return result;\n    }\n\n    int search(int i, int mistakes) const {\n        if (!s[i])\n            return termCount;\n        int result = 0;\n        auto it = next.find(s[i]);\n        if (it != next.end())\n            result = it->snd->search(i + 1, mistakes);\n        if (mistakes) {\n            it = next.find(char(s[i] ^ 0x20));\n            if (it != next.end())\n                result += it->snd->search(i + 1, mistakes - 1);\n        }\n        return result;\n    }\n};\n\nint nodeCount;\nNode* nodes = new Node[(int)2e6];\n\nNode* createNode() {\n    nodes[nodeCount].next.clear();\n    nodes[nodeCount].termCount = 0;\n    return &nodes[nodeCount++];\n}\n\nint main() {\n    ios_base::sync_with_stdio(false);\n    cin.tie(nullptr);\n#   ifndef LOCAL_PROJECT\n        freopen(\"input.txt\", \"r\", stdin);\n        freopen(\"output.txt\", \"w\", stdout);\n#   endif\n    int i, k, dictSize, q;\n    while (cin >> k >> dictSize) {\n        Node root;\n        nodeCount = 0;\n        for (i = 0; i < dictSize; i++) {\n            cin >> s;\n            auto node = &root;\n            for (int j = 0; s[j]; j++) {\n                let next = node->get(s[j]);\n                if (next)\n                    node = next;\n                else {\n                    do\n                        node = node->addForce(s[j]);\n                    while (s[++j]);\n                    break;\n                }\n            }\n            node->termCount++;\n        }\n        cin >> q;\n        while (q--) {\n            cin >> s;\n            cout << root.search(0, k) << '\\n';\n        }\n    }\n    cout << flush;\n    _Exit(0);\n}\n",
+			"settings":
+			{
+				"buffer_size": 4035,
+				"line_ending": "Windows"
+			}
+		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/MagicPython/settings/sublime/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/SublimeREPL/sublimerepl_build_system_hack.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 392.0,
-		"last_filter": "Package Control: ",
+		"height": 81.0,
+		"last_filter": "+",
 		"selected_items":
 		[
+			[
+				"+",
+				"Set Syntax: C++"
+			],
 			[
 				"Package Control: ",
 				"Package Control: List Packages"
@@ -34,10 +74,6 @@
 			[
 				"trsp",
 				"Trailing Spaces: Delete Trailing Spaces"
-			],
-			[
-				"+",
-				"Set Syntax: C++"
 			],
 			[
 				"example",
@@ -277,6 +313,8 @@
 	],
 	"file_history":
 	[
+		"/C/Users/bogom/Desktop/azaza.py",
+		"/C/Users/bogom/Desktop/kek.py",
 		"/C/Users/bogom/Desktop/azaza.mdown",
 		"/D/st3/Data/Packages/OmniMarkupPreviewer/Default (Windows).sublime-keymap",
 		"/D/My Data/Coding/VS Community/multiproject/bin/projects/olympiads/bobrovka/2016/day07/a/Default.sublime-commands",
@@ -415,8 +453,128 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4035,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1955,
+								1955
+							]
+						],
+						"settings":
+						{
+							"bracket_highlighter.busy": false,
+							"bracket_highlighter.locations":
+							{
+								"close":
+								{
+									"1":
+									[
+										1954,
+										1955
+									]
+								},
+								"icon":
+								{
+									"1":
+									[
+										"Packages/BracketHighlighter/icons/curly_bracket.png",
+										"brackethighlighter.default"
+									]
+								},
+								"open":
+								{
+									"1":
+									[
+										1863,
+										1864
+									]
+								},
+								"unmatched":
+								{
+								}
+							},
+							"bracket_highlighter.regions":
+							[
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content"
+							],
+							"bs_sintax": "plain text",
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1242.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -454,6 +612,10 @@
 	"output.commando":
 	{
 		"height": 124.0
+	},
+	"output.exec":
+	{
+		"height": 118.0
 	},
 	"output.find_results":
 	{

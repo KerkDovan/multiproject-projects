@@ -1,0 +1,26 @@
+4294967295 4294967295
+0 4294967295
+0 1
+13 kek
+0 1
+0 4294967295
+1
+123.6 A
+13 kek
+234
+lalka
+216.532 216.532
+
+var1 = 13
+var1 holds int true
+var1 holds string false
+var1 holds char false
+var1 holds double false
+
+var2 = azaza
+var2 holds int false
+var2 holds string true
+var2 holds char false
+var2 holds double false
+
+0117E528 235.754

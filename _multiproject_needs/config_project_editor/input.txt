@@ -1,0 +1,5 @@
+D:/My Data/Coding/VS Community/multiproject/bin/projects/
+config_project.h
+config_project.h
+#pragma once\n#ifndef _MULTIPROJECT_PROJECT_CONFIG_H_\n#define _MULTIPROJECT_PROJECT_CONFIG_H_\n\n#define _COMPILE_WITHOUT_MULTIPROJECT false\n\n#define _MULTIPROJECT_TIME_LIMIT %d\n#define _MULTIPROJECT_STACK_SIZE_MB 256\n\n#define _USE_DEBUG true & _DEBUG\n\n#endif // _MULTIPROJECT_PROJECT_CONFIG_H_\n
+#pragma once\n#ifndef _MULTIPROJECT_PROJECT_CONFIG_H_\n#define _MULTIPROJECT_PROJECT_CONFIG_H_\n\n#define _COMPILE_WITHOUT_MULTIPROJECT false\n\n#define _MULTIPROJECT_TIME_LIMIT %d\n#define _MULTIPROJECT_STACK_SIZE_MB 256\n\n#define _RUN_WITHOUT_INPUT false\n\n#define _USE_DEBUG true & _DEBUG\n\n#endif // _MULTIPROJECT_PROJECT_CONFIG_H_\n

@@ -1,0 +1,133 @@
+1. Dychotomy method:
+Expression: sin(x)
+x* = 3.142
+f(x*) = -0
+eps* by x = 9.765625e-04
+eps* by f(x) = 4.073464e-04
+
+2. Dychotomy method:
+Expression: x - 17.345
+x* = 17.345
+f(x*) = 0
+eps* by x = 5.960464e-06
+eps* by f(x) = 1.000000e-05
+
+3. Chords method:
+Expression: x - 17.345
+x* = 17.345
+f(x*) = 0
+eps* by x = 0.000000e+00
+eps* by f(x) = 0.000000e+00
+
+4. Newton method:
+Expression: x - 17.345
+x* = 17.345
+f(x*) = 0
+eps* by x = 0.000000e+00
+eps* by f(x) = 0.000000e+00
+
+5. Combined method:
+Expression: x - 17.345
+x* = 17.345
+f(x*) = 0
+eps* by x = 0.000000e+00
+eps* by f(x) = 0.000000e+00
+
+6. Iterations method:
+Expression: x - 17.345
+x* = 17.345
+f(x*) = 0
+eps* by x = 0.000000e+00
+eps* by f(x) = 0.000000e+00
+
+7. Golden section method:
+Expression: x - 17.345
+x* = 17.345
+f(x*) = 0
+eps* by x = 6.344215e-06
+eps* by f(x) = 3.552714e-15
+
+8. Dychotomy method:
+Expression: x ^ 2 - 17
+x* = 4.12311
+f(x*) = 0
+eps* by x = 9.536743e-06
+eps* by f(x) = 3.607210e-05
+
+9. Chords method:
+Expression: x ^ 2 - 17
+x* = 4.1231
+f(x*) = -0
+eps* by x = 9.350669e-06
+eps* by f(x) = 5.495296e-05
+
+10. Newton method:
+Expression: x ^ 2 - 17
+x* = 4.12311
+f(x*) = 0
+eps* by x = 6.664036e-06
+eps* by f(x) = 4.440537e-11
+
+11. Combined method:
+Expression: x ^ 2 - 17
+x* = 4.12311
+f(x*) = -0
+eps* by x = 4.675325e-06
+eps* by f(x) = 3.115730e-11
+
+12. Iterations method:
+Expression: x ^ 2 - 17
+x* = 4.12312
+f(x*) = 0
+eps* by x = 7.339839e-06
+eps* by f(x) = 8.627071e-05
+
+13. Golden section method:
+Expression: x ^ 2 - 17
+x* = 4.1231
+f(x*) = -0
+eps* by x = 7.035842e-06
+eps* by f(x) = 4.639000e-05
+
+14. Dychotomy method:
+Expression: x ^ 3 + x ^ 2 - 256
+x* = 6.03316
+f(x*) = 0
+eps* by x = 9.536743e-06
+eps* by f(x) = 1.285887e-04
+
+15. Chords method:
+Expression: x ^ 3 + x ^ 2 - 256
+x* = 6.03316
+f(x*) = -0
+eps* by x = 4.694097e-06
+eps* by f(x) = 4.295120e-04
+
+16. Newton method:
+Expression: x ^ 3 + x ^ 2 - 256
+x* = 6.03316
+f(x*) = 0
+eps* by x = 7.883359e-06
+eps* by f(x) = 1.187004e-09
+
+17. Combined method:
+Expression: x ^ 3 + x ^ 2 - 256
+x* = 6.03316
+f(x*) = 0
+eps* by x = 1.951062e-11
+eps* by f(x) = 0.000000e+00
+
+18. Iterations method:
+Expression: x ^ 3 + x ^ 2 - 256
+x* = 6.03315
+f(x*) = -0.001
+eps* by x = 3.461598e-06
+eps* by f(x) = 6.879474e-04
+
+19. Golden section method:
+Expression: x ^ 3 + x ^ 2 - 256
+x* = 6.03315
+f(x*) = -0.001
+eps* by x = 7.035842e-06
+eps* by f(x) = 1.084043e-03
+

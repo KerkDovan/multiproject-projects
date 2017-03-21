@@ -1,0 +1,12 @@
+NO
+YES
+5 L
+4 L
+YES
+5 L
+4 L
+3 L
+2 L
+YES
+6 L
+5 L

@@ -1,0 +1,2 @@
+Successfully connected to server
+220 smtp.gmail.com ESMTP u78sm3639584lff.31 - gsmtp

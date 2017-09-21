@@ -1,0 +1,10 @@
+5 9
+1 4 mult 2
+2 1 mult 3
+5 2 div 2
+4 2 div 12
+4 1 div 3
+5 4 mult 1
+4 5 div 2
+5 3 mult 4
+3 4 div 3
